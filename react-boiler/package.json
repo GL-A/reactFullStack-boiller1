@@ -4,14 +4,19 @@
   "private": true,
   "proxy": "http://localhost:8080/",
   "dependencies": {
+    "antd": "^2.12.6",
     "axios": "^0.16.2",
+    "babel-plugin-import": "^1.4.0",
+    "email-validator": "^1.1.1",
+    "moment": "^2.18.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-dropzone": "^4.1.0",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.1.2",
-    "react-tap-event-plugin": "^2.0.1",
     "redux": "^3.7.2",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "^2.2.0",
+    "superagent": "^3.6.0"
   },
   "devDependencies": {
     "babel-preset-stage-1": "^6.24.1",

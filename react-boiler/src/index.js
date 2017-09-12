@@ -6,8 +6,6 @@ import thunk from 'redux-thunk';
 import reducers from './ducks/reducers';
 import './index.css';
 import Routes from './Routes';
-const injectTapEventPlugin = require("react-tap-event-plugin");
-injectTapEventPlugin();
 
 const Store = applyMiddleware(thunk)(createStore);
 const rootReducer = combineReducers(reducers)

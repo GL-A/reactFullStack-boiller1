@@ -1,0 +1,6 @@
+@import '~antd/dist/antd.css';
+
+.Routes {
+  min-height: 100vh;
+  background: #F7F5F2;
+}

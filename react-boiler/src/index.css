@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+  color: #353535;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -46,4 +47,40 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+input:focus, button:focus{
+  outline: 0;
+}
+button{
+  cursor: pointer;
+}
+
+.Link{
+  font-weight: bold;
+  color: #2752FF;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.align-flex-start{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.space-apart{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.center-vertical{
+  display: flex;
+  justify-content: center;
+}
+.space-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }

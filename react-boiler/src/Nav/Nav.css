@@ -1,0 +1,76 @@
+.Nav-container{
+  position: relative;
+  background: white;
+  text-align: center;
+  color: #353535;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.nav-topbar{
+  border-bottom: solid 1px #DAD7D4;
+  height: 60.5px;
+}
+.nav-bottombar{
+  height: 60.5px;
+}
+.nav-bottom-divs{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: white;
+}
+.nav-bottom-items{
+  height: 60.5px;
+  width: 50%;
+  display: flex;
+}
+.bottom-nav-item-left{
+  width: 120px;
+  height: 60.5px;
+  margin-left: 10px;
+}
+.bottom-nav-item-right{
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 60.5px;
+}
+.bottom-nav-item-logo{
+  margin: 0;
+  width: 75px;
+  background: #F7F5F2;
+}
+.nav-bottom-items.right{
+  justify-content: flex-end;
+}
+.nav-bottom-logo{
+  display: none;
+}
+@media(min-width: 768px){
+  .nav-bottom-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+  }
+  .nav-bottom-items{
+    width: 35%;
+  }
+}
+/*anime classes*/
+.bottom-nav-anime-divs{
+  position: relative;
+  top: -60px;
+  transition: 0.2s;
+  background: white;
+}
+.bottom-nav-anime-divs.search{
+  top: 0px;
+}
+.search-input.search{
+  animation: search 0.5s 1;
+}
+@keyframes search{
+  from{left: -2000px}
+  to{left: 0}
+}

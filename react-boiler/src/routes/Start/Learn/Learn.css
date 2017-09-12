@@ -1,0 +1,94 @@
+.Start-learn{
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.learn-top-container{
+  flex-wrap: wrap;
+  background: url('./../../../assets/images/confetti-bg-40ba994a0c5e274aed6897d4bb0c928dc0044e811bdde2846d7f40ef9440ce69.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 550px;
+  width: 100vw;
+}
+.learn-top-Start{
+  color: black;
+  flex-direction: column;
+  text-align: center;
+  height: 375px;
+  width: 70%;
+}
+.learn-top-Start h1{
+  font-size: 60px;
+  font-weight: 400;
+}
+.learn-top-Start button{
+  color: white;
+  padding: 16px 32px;
+  font-size: 16px;
+  margin-top: 40px;
+  border-radius: 5px;
+  border: none;
+  background: #25CB68;
+  transition: 0.2s;
+}
+.learn-top-Start button:hover{
+  background: #05AF3C;
+}
+.learn-top-categories-container{
+  background: rgba(255,255,255,0.5);
+  height: 175px;
+  width: 100%;
+  flex-direction: column;
+}
+.learn-top-categories-header{
+  color: #3D3D66;
+  height: 30%;
+  font-size: 16px;
+  font-weight: 600;
+  width: 90%;
+}
+.learn-top-categories{
+  flex-wrap: wrap;
+  height: 70%;
+  width: 100%;
+  max-width: 900px;
+}
+.learn-category{
+  color: white;
+  font-size: 14px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  background: #3D3D66;
+  padding: 10px 20px;
+  transition: 0.2s;
+}
+.learn-category:hover{
+  background: #5A5A96;
+}
+@media(max-width: 692px){
+  .learn-top-container{
+    height: 700px;
+    text-align: center;
+  }
+  .learn-top-categories-container{
+    height: 300px;
+  }
+  .learn-category{
+    margin: 7px 2px;
+    padding: 8px 12px;
+  }
+  .learn-top-Start h1{
+    font-size: 40px;
+  }
+}
+@media(max-width: 465px){
+  .learn-top-Start h1{
+    font-size: 30px;
+  }
+}
+.temp{
+  width: 100%;
+  border: solid 1px black;
+}

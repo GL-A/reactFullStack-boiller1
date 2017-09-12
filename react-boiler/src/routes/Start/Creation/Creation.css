@@ -1,0 +1,57 @@
+.Creation{
+  width: 95vw;
+  flex-direction: column;
+}
+.create-form-container{
+  background: white;
+  position: relative;
+  overflow: hidden;
+  width: 550px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.project-title-input{
+  width: 320px;
+  margin: 12px 0;
+  padding: 7px 15px;
+  border-radius: 5px;
+  border: solid 1px #DAD7D4;
+  transition: 0.4s;
+}
+.project-title-input:focus{
+  border: solid 1px #2752FF;
+}
+.project-title-textarea{
+  width: 320px;
+  margin: 12px 0;
+  padding: 7px 15px;
+  height: 100px;
+  border-radius: 5px;
+  border: solid 1px #DAD7D4;
+  transition: 0.4s;
+}
+.project-title-textarea:focus{
+  border: solid 1px #2752FF;
+}
+.create-ul{
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  margin: 20px;
+  transition: 0.4s;
+}
+.create-li{
+  border-radius: 4px;
+  margin: 3px 0;
+  width: 500px;
+  background: #F8F9FD;
+  padding: 10px;
+}
+.creation-project-preview{
+  background: pink;
+  width: 220px;
+  padding: 10px 0;
+  flex-direction: column;
+}
